@@ -1,0 +1,83 @@
+/*
+Custom Css
+*/
+.custom1{
+    height: 100%;
+}
+.item1{
+    background-color: aqua;
+    height: 600px;
+}
+.item2{
+    background-color:firebrick;
+    height: 600px;
+}
+.item3{
+    background-color: khaki;
+    height: 600px;
+}
+.image1-size{
+    height: 100%;
+    width: 100%;
+}
+.image2-size{
+    height: 100%;
+    width: 100%;
+}
+.image3-size{
+    height: 100%;
+    width: 100%;
+}
+.fz{
+    font-size: 130px;
+}
+.abt-mrgin
+{
+    margin-top: 10px;
+}
+.txt-spl{
+    font-weight: 500;
+}
+.current-menu{
+    border-bottom: 2px solid grey;
+}
+.outer-banner{
+    height: 100vh;
+}
+@media only screen and (min-width: 100px) {
+    .outer-banner{
+      height: 350px;
+  }
+}
+@media only screen and (min-width:720px) {
+    .outer-banner{
+      height: 450px;
+  }
+}
+@media only screen and (min-width:992px) {
+    .outer-banner{
+      height: 100vh;
+  }
+}  
+.projects-height{
+    height:100px
+}
+.logo-custom{
+    height: 100px;
+    width: 400px;
+    margin-left: -80px;
+    background-image:url(../../images/logo/logo-banner.jpg) ;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:600px)
+{
+    .logo-custom{
+        margin-left: 5px;
+    }
+}
+a:link
+{
+    text-decoration: none;
+}
